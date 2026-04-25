@@ -11,7 +11,7 @@ Single-binary Rust CLI for [Vikunja](https://vikunja.io) — manage tasks, proje
 - **Pretty colored tables** by default, `--json` flag for piping
 - **Native Vikunja filter syntax** in `task list --filter "..."` — auto-expands `project_id = X` to include all sub-projects
 - **Single static binary** (~3 MB, no runtime)
-- Same coverage as the Python/FastMCP `vikunja-mcp` server, but standalone
+- 15 operations covering tasks, projects, labels, comments, assignees
 
 ## Install
 

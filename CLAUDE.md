@@ -1,6 +1,6 @@
 # vikunja-cli
 
-[Vikunja](https://vikunja.io) task management için single-binary Rust CLI. Python/FastMCP `vikunja-mcp` server'ının standalone CLI portu — aynı 15 operasyon, nested subcommand yapısı.
+[Vikunja](https://vikunja.io) task management için single-binary Rust CLI. 15 operasyon, nested subcommand yapısı (task list, project create, task comment list, vb.).
 
 ## Stack
 
@@ -81,10 +81,6 @@ skills/vikunja-cli/SKILL.md Claude Code skill (workflow wrapper)
 - `task labels --ids 1,2,3` — replace semantiği, `--ids ""` ile clear
 - Date format: ISO 8601 UTC (`2026-05-15T18:00:00Z`)
 - Priority: 1=low, 2=medium, 3=high, 4=urgent, 5=do-now
-
-## İlişkili Projeler
-
-- **vikunja-mcp** (Python/FastMCP): https://github.com/omert11/vikunja-mcp — MCP server versiyonu, aynı tool seti
 
 ## Skill
 
